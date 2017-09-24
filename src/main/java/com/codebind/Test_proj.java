@@ -14,13 +14,13 @@ public class Test_proj {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) throws InterruptedException {
 
-		String enteremail = "sainathdi@yahoo.co.in";
-		String pass = "sainath123";
-		String post = "This is my third Post for Automation testing using Selenium and TestNg framework!!  woohooo!!..... !!!!! #seleniumAndtestNGFramework";
+		String enteremail = "************";
+		String pass = "*******************";
+		String post = "This is a Post intended to test an Automation testing script using Selenium and TestNg framework!!  woohooo!!..... !!!!! #seleniumAndtestNGFramework";
 		String page = "http:\\www.facebook.com";
-		String profile = "https://www.facebook.com/shiva.sampath.3";
-		String searchname = "shiva.sampath.3";
-		String message = "Hi Sampath, this is an automated selenium script trying to send a message to you by SAI";
+		String profile = "*********";
+		String searchname = "************";
+		String message = "Hi ****, this is an automated selenium script trying to send a message to you by SAI";
 		// System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 
 		WebDriver driver1 = new FirefoxDriver();
