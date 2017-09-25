@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Test_proj {
+public class Facebook_automation {
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) throws InterruptedException {
@@ -20,7 +20,7 @@ public class Test_proj {
 		String page = "http:\\www.facebook.com";
 		String profile = "*********";
 		String searchname = "************";
-		String message = "Hi ****, this is an automated selenium script trying to send a message to you by SAI";
+		String message = "Hi ****, this is an automated selenium script trying to send a message ";
 		// System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 
 		WebDriver driver1 = new FirefoxDriver();
@@ -103,7 +103,7 @@ public class Test_proj {
 		*/
 		
 		// go to his facebook profile
-		driver1.get("https://www.facebook.com/shiva.sampath.3");
+		driver1.get("https://www.facebook.com/profilename");
 		
 		
 		driver1.findElement(By.xpath(".//*[@id='u_0_18']")).click();
